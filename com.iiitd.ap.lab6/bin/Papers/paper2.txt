@@ -1,0 +1,6 @@
+Opaqueness Characteristic of a Context Honeypot System
+
+Anand Guptaa, S. K. Guptab, Isha Manu Ganesha, Pankhuri Guptaa, Vikram Goyal, Sangeeta Sabharwala
+
+Abstract
+The concept of context honeypot for privacy violation, based on relational databases, was introduced (S.K. Gupta, Damor, Goyal, A. Gupta, & Sabharwal, 2008). Its aim is to confirm or reject the suspicion cast on a user through external stimuli. Its various characteristics such as luring, opaqueness and confirmation of suspicion have not yet been explored. Here, we focus on one of its important characteristics, opaqueness; that is, it should remain invisible to attackers. This paper discusses ways to quantify effectiveness of a context honeypot system in upholding its opaqueness property to suspected attacker. We conducted an experiment by generating a context honeypot system with known suspected attackers and then quantified its effectiveness through the proposed methods. The results obtained validate the methods proposed by us as an effective tool to quantify the effectiveness of the context honeypot in maintaining its opaqueness property.

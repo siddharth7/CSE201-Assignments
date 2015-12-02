@@ -1,0 +1,6 @@
+Optical Flow for non Lambertian surfaces by cancelling illuminant chromaticity
+
+Chetan Arora, Michael Werman
+
+Abstract
+Optical flow, the pixel level correspondences between a pair of images is an important problem in computer vision. Standard optical flow computation algorithms assume constant brightness and fail on specular surfaces. Earlier work to alleviate problems with specularity evaluate the illuminant chromaticity using a few correspondences in the images and then jointly optimize flow and appearance under the dichromatic model . We argue that the correspondences obtained by these methods are mostly pairs of pixels that are Lambertian thus giving a noisy estimate of the illuminant chromaticity. We suggest a new approach to evaluate the illuminant chromaticity which does not require exact correspondences and gives a better estimate of illuminant chromaticity. We use the evaluated chromaticity to project the input images on to a specular invariant color space and show that standard optical flow algorithms on this color space significantly improves the flow results. The suggested approach is simple, efficient and more importantly can utilize existing algorithms to compute optical flow on non Lambertian surfaces.

@@ -1,0 +1,6 @@
+New Approaches to Design and Control of Time Limited Search Algorithms
+
+Sandip Aine, P. P. Chakrabarti
+
+Abstract
+We talk about two key aspects of the quality-time trade-offs in time limited search based reasoning namely, design of efficient anytime algorithms and formulations for meta-reasoning (or control) to optimize the computational trade-off under various constrained environments. We present the ideas behind novel anytime heuristic search algorithms, both contract and interruptible. We also describe new meta-control strategies that address parameter control along with time deliberation.

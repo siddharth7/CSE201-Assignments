@@ -1,0 +1,6 @@
+PRINDA: Architecture and Design of Non-Disclosure Agreements in Privacy Policy Framework
+
+Vikram Goyal, Shyam K. Gupta, Indira Meshram, Anand Gupta
+
+Abstract
+Non Disclosure Agreements(NDAs) in real life are typically used whenever there is transfer of private or confidential information from one organization to another. The provider organization can not have any control over privacy mechanisms of the receiving organization. The privacy policy work so far has addressed itself for preventing privacy violation within an organization. We aim to give an architecture of PRINDA(PRIvacy NDA) system which incorporates NDA’s in privacy policy framework. Advantages of PRINDA system will be the following: i) As there can be traces of malicious activity(invasion of privacy) either at provider-end or at recipient-end, if detected/reported, NDA can help to relegate the responsibility to the organization violating the agreement, and will strengthen control in the privacy arena. ii) detailed information of usage of data can be provided to the owner of data e.g. information of all accesses at every level, and hence strengthening the principle of providing the individual data usage information.

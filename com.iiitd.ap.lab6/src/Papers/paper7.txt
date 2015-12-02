@@ -1,0 +1,6 @@
+Android Phone Based Appraisal of App Behavior on Cell Networks
+
+Shaifali Gupta, Rashi Garg, Nikita Jain, Vinayak Naik, Sanjit Kaul
+
+Abstract
+The rapid adoption of smartphones has engendered a large ecosystem of mobile data applications. A large part of mobile traffic is now data and not voice. Many of these applications, for example VoIP clients, stay active in the background. In the background, they may not communicate large amounts of data. However, their regular bursts of activity can lead to large signaling overheads, wastage of radio resources, and draining of a phone’s battery. In this work we propose for Android smartphones an on-the-phone mechanism to detect background applications that due to bad design (given the network’s settings) or their malicious nature (exploiting the network’s settings) lead to above mentioned inefficiencies. We also outline a fully functional ready-to-install tool that we developed and used for our studies.

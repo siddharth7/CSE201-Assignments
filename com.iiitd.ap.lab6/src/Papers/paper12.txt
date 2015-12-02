@@ -1,0 +1,6 @@
+An Analysis of Breadth-First Beam Search using Uniform Cost Trees
+
+Sandip Aine, P. P. Chakrabarti
+
+Abstract
+In this paper, we present a probabilistic analysis of breadth-first beam search on trees. The work is divided into two parts. First, we introduce a ranking model to characterize the nodes in a search space and discuss the condition for provable optimality of beam search in terms of the ranking model. We also formulate a method to compute the probability of optimal termination of beam search for a specific beam width. Next, we analyze the node expansion properties of beam search using a uniform cost tree model and establish a relationship between the probability of optimal termination and the search space configuration. The analysis explains certain interesting characteristics of beam search including the possibility of nonmonotonic progress with increasing search efforts.

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.updateb">
+   <children>
+      <AnchorPane layoutX="-229.0" layoutY="-230.0" prefHeight="336.0" prefWidth="337.0" />
+      <TabPane fx:id="mytabpane" layoutX="-1.0" layoutY="2.0" prefHeight="488.0" prefWidth="500.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab onSelectionChanged="#uptab" text="Enter/Update Budget">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="65.0" layoutY="53.0" text="Enter Budget" />
+                        <Label fx:id="updatetext" layoutX="231.0" layoutY="196.0" prefHeight="16.0" prefWidth="65.0" textFill="#31c613" />
+                        <TextField fx:id="budgetvalue" layoutX="166.0" layoutY="48.0" />
+                        <Button fx:id="updatebtn" layoutX="202.0" layoutY="122.0" mnemonicParsing="false" onAction="#updatebudg" text="Enter" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab fx:id="addtab1" onSelectionChanged="#addtab" text="Add Expense">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="51.0" layoutY="35.0" text="Total budget" />
+                        <Label fx:id="totalbview" layoutX="130.0" layoutY="35.0" />
+                        <Label layoutX="279.0" layoutY="35.0" text="Available Budget" />
+                        <Label fx:id="availbview" layoutX="389.0" layoutY="35.0" />
+                        <Label layoutX="80.0" layoutY="95.0" text="Date" />
+                        <Label layoutX="72.0" layoutY="151.0" text="Category" />
+                        <Label layoutX="80.0" layoutY="208.0" text="Amount" />
+                        <DatePicker fx:id="dateview" layoutX="176.0" layoutY="90.0" />
+                        <TextField fx:id="catview" layoutX="190.0" layoutY="154.0" />
+                        <TextField fx:id="amountview" layoutX="190.0" layoutY="211.0" />
+                        <Button fx:id="addbtn" layoutX="218.0" layoutY="299.0" mnemonicParsing="false" onAction="#addex" text="Ok" />
+                        <Label fx:id="addresult" layoutX="219.0" layoutY="356.0" textFill="#45f514" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab fx:id="recordtab1" onSelectionChanged="#recordtab" text="Records">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="22.0" layoutY="34.0" text="Total Budget" />
+                        <Label fx:id="rectotal" layoutX="135.0" layoutY="34.0" prefHeight="16.0" prefWidth="58.0" />
+                        <Label layoutX="237.0" layoutY="34.0" text="Total Expense" />
+                        <Label fx:id="exptotal" layoutX="380.0" layoutY="34.0" />
+                        <TableView fx:id="table" layoutX="4.0" layoutY="70.0" prefHeight="380.0" prefWidth="491.0">
+                          <columns>
+                            <TableColumn fx:id="catcol" prefWidth="184.0" text="Category" />
+                            <TableColumn fx:id="amcol" prefWidth="137.0" text="Amount" />
+                              <TableColumn fx:id="datecol" prefWidth="162.0" text="Date " />
+                          </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+            <Tab onSelectionChanged="#showChart" text="Analysis">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="198.0" layoutY="36.0" prefHeight="24.0" prefWidth="175.0" text="Expense Analysis">
+                 
+                        </Label>
+                        <PieChart fx:id="piec" layoutX="50.0" layoutY="84.0" prefHeight="336.0" prefWidth="426.0" />
+                     </children></AnchorPane>
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,6 @@
+Finding RkNN Set in Directed Graphs
+
+Pankaj Sahu, Prachi Agrawal, Vikram Goyal, Debajyoti Bera
+
+Abstract
+The reverse k-nearest neighbors of a query data point q characterizes the influence set of q, and comprises of data points which consider q among their k-nearest neighbours. This query has gained considerable attention due to its importance in various applications involving decision support systems, profile-based marketing, location based services, etc. Although this query is reasonably well-studied for scenarios where data points belong to Euclidean spaces, there has not been much work done for non-Euclidean data points, and specifically, for large data sets with arbitrary distance measures. In this work, a framework has been proposed for performing RkNN query over data sets that can be represented as directed graphs. We present a graph pruning technique to compute the RkNN of a query point which significantly reduces the search space. We report results of extensive experiments over some real-world data sets from a social network, a product co-purchasing network of Amazon, the web graph, and study the performance of our proposed heuristic in various settings on these data sets. These experiments demonstrate the effectiveness of our proposed technique.

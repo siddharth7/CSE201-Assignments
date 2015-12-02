@@ -1,0 +1,6 @@
+Efficient Representation of Distributions for Background Subtraction
+
+Yedid Hoshen, Chetan Arora, Yair Poleg, Shmuel Peleg
+
+Abstract
+Multi dimensional probability distributions are used in many surveillance tasks such as modeling color distribution of background pixels for Background Subtraction. Accurate representation of such distributions, e.g. in a histogram, requires much memory that may not be available when a histogram is computed for each pixel. Parametric representations such as Gaussian Mixture Models (GMM) are very efficient in memory but may not be accurate enough when the distribution is not from the assumed model. We propose a memory efficient representation for distributions. Histograms cells usually have equal width, and count the hits in each cell (Equi-width histograms). In most cases a 1D distribution can be represented more efficiently when cell sizes change so that each cell will have same number of hits (Equi-depth histograms). We propose to describe compactly multi-dimensional distributions (e.g. color) using an equi-depth histograms. Online computation of such histograms is described, and examples are given for background subtraction.

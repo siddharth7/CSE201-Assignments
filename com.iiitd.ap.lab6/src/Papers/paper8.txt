@@ -1,0 +1,6 @@
+On Piggybacking in Vehicular Networks
+
+Sanjit Kaul, Roy Yates and Marco Gruteser
+
+Abstract
+This work is motivated by network applications that require nodes to disseminate their state to others. In particular, vehicular nodes will host applications that periodically disseminate time-critical state across the network to help improve on-road safety. In this work, we want to minimize the average age of state information that a node observes from any other node in networks with hundreds to thousands of nodes. We explore the benefits, vis-a-vis reducing age, of a multi-hop wireless network over a fully-connected one, for a physical network of on-road vehicles, by allowing nodes to piggyback other nodes’ states. We show that for a large road network and a chosen schedule, there exists an optimal fraction of connected neighbor nodes, which, for a fixed signal-to-noise ratio between most distant nodes, is invariant to the size of the network. Via simulation we confirm that significant reductions in age are obtained via piggybacking for network sizes of interest.
